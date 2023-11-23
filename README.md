@@ -17,7 +17,7 @@ with a familiar interface by restoring the classic icons associated with various
 
 To install the Legacy Icons Plugin, follow these steps:
 
-1. Download the plugin from the [CentricApp website](https://centricapp.co.il).
+1. Download the plugin from the [CentricApp website](https://www.centricapp.co.il).
 2. Extract the contents of the zip file.
 3. Copy the extracted folder to the `local` directory of your Moodle installation.
 4. Visit the Moodle site administration page.
@@ -30,7 +30,7 @@ can enjoy the classic Moodle experience with updated versions.
 
 ## Support and Issues
 
-If you encounter any issues or have questions about the Legacy Icons Plugin, please feel free to [contact CentricApp support](https://centricapp.co.il/support). We appreciate your
+If you encounter any issues or have questions about the Legacy Icons Plugin, please feel free to [contact CentricApp support](https://support.centricapp.co.il). We appreciate your
 feedback and will strive to address any concerns promptly.
 
 ## Contributing
@@ -45,4 +45,4 @@ This plugin is released under the [GNU General Public License](https://www.gnu.o
 ## About CentricApp
 
 CentricApp is a software development company dedicated to creating innovative solutions for Moodle and other e-learning platforms. To learn more about CentricApp and our other
-products, visit [https://centricapp.co.il](https://centricapp.co.il).
+products, visit [https://centricapp.co.il](https://www.centricapp.co.il).
