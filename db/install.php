@@ -31,7 +31,7 @@ function xmldb_local_legacy_icons_install() {
     $mods = $DB->get_records('modules');
     foreach ($mods as $mod) {
 
-        $types = array('png', 'svg');
+        $types = ['png', 'svg'];
         foreach ($types as $type) {
             $sourcepath = $CFG->dirroot . '/local/legacy_icons/pix_plugins/mod/' . $mod->name . '/monologo.' . $type;
             $destinationpath = $CFG->dataroot . '/pix_plugins/mod/' . $mod->name . '/monologo.' . $type;
