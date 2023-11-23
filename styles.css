@@ -1,2 +1,7 @@
-.activityiconcontainer {background-color: unset !important;}
-.activityiconcontainer img {filter: unset !important;}
+.activityiconcontainer {
+    background-color: unset !important;
+}
+
+.activityiconcontainer img {
+    filter: unset !important;
+}
