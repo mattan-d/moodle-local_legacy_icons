@@ -44,8 +44,6 @@ function xmldb_local_legacy_icons_install() {
             // Use the copy function to copy the file.
             if (copy($sourcePath, $destinationPath)) {
                 mtrace('Activity "' . $mod->name . '" copied successfully.');
-            } else {
-                mtrace('Error copying file.');
             }
         }
     }
