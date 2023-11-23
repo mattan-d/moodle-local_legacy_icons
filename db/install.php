@@ -33,8 +33,8 @@ function xmldb_local_legacy_icons_install() {
 
         $types = array('png', 'svg');
         foreach ($types as $type) {
-            $sourcePath = $CFG->dirroot . '/local/legacy_icons/pix_plugins/mod/' . $mod->name . '/monologo.' . $type;
-            $destinationPath = $CFG->dataroot . '/pix_plugins/mod/' . $mod->name . '/monologo.' . $type;
+            $sourcepath = $CFG->dirroot . '/local/legacy_icons/pix_plugins/mod/' . $mod->name . '/monologo.' . $type;
+            $destinationpath = $CFG->dataroot . '/pix_plugins/mod/' . $mod->name . '/monologo.' . $type;
 
             // Check if the destination directory exists, and create it if not.
             if (!file_exists($CFG->dataroot . '/pix_plugins/mod/' . $mod->name)) {
@@ -42,16 +42,16 @@ function xmldb_local_legacy_icons_install() {
             }
 
             // Use the copy function to copy the file.
-            if (copy($sourcePath, $destinationPath)) {
+            if (copy($sourcepath, $destinationpath)) {
                 mtrace('Activity "' . $mod->name . '" copied successfully.');
             }
         }
     }
 
-    // Purge all caches
+    // Purge all caches.
     purge_all_caches();
 
-    // Output a success message
+    // Output a success message.
     mtrace('All caches purged successfully.');
 
     return true;
