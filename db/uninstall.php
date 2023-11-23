@@ -32,7 +32,7 @@ function xmldb_local_legacy_icons_uninstall() {
 
     foreach ($mods as $mod) {
         $dir = $CFG->dataroot . '/pix_plugins/mod/' . $mod->name;
-        $files = array_diff(scandir($dir), array('.', '..'));
+        $files = array_diff(scandir($dir), ['.', '..']);
 
         foreach ($files as $file) {
             $path = $dir . '/' . $file;
