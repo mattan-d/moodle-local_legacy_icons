@@ -1,3 +1,4 @@
+/* stylelint-disable declaration-no-important  */
 .activityiconcontainer {
     background-color: unset !important;
 }
@@ -5,3 +6,5 @@
 .activityiconcontainer img {
     filter: unset !important;
 }
+
+/* stylelint-enable */
